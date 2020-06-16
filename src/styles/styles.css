@@ -1,17 +1,28 @@
+.container {
+    padding-top: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 h1 {
     text-align: center;
     color: darkgreen;
     border: darkblue solid 1px;
 }
 
+
 .image {
     background-image: url("../assets/temxter.png");
     background-size: cover;
-    height: 200px;
+    height: 240px;
+    width: 320px;
     margin: 0 auto;
 }
 
 .image-svg {
     background-image: url("../assets/svg.svg");
+    background-size: cover;
+    height: 316px;
+    width: 617px;
     margin: 0 auto;
 }
