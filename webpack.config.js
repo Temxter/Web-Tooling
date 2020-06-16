@@ -3,6 +3,9 @@ const HTMLWebpackPlugin = require('html-webpack-plugin')
 const {CleanWebpackPlugin} = require('clean-webpack-plugin')
 
 
+const isDev = process.env.NODE_ENV === 'development'
+
+
 module.exports = {
     context: path.resolve(__dirname, 'src'),
     mode: 'development',
@@ -19,6 +22,10 @@ module.exports = {
         }),
         new CleanWebpackPlugin(),
     ],
+    devServer: {
+        port: 4201,
+        hot: isDev
+    },
     module: {
         rules: [
             {
