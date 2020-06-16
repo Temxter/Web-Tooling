@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+    color: darkgreen;
+    border: darkblue solid 1px;
+}
+
+.image {
+    background-image: url("../assets/temxter.png");
+    background-size: cover;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.image-svg {
+    background-image: url("../assets/svg.svg");
+    margin: 0 auto;
+}
